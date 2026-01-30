@@ -1,6 +1,6 @@
 import { Page, test, expect, Locator } from '@playwright/test';
 
-export default abstract class BasePage {
+export abstract class BasePage {
     protected readonly BASE_PAGE = 'https://www.saucedemo.com/';
     protected readonly PAGE_NAME: string;
     protected readonly PAGE_URL: string;
@@ -19,4 +19,12 @@ export default abstract class BasePage {
     public async getPageUrl(): Promise<string> {
         return `${this.BASE_PAGE}${this.PAGE_URL}`;
     }
+
+    async waitForPageLoad() {
+        await this.page.waitForLoadState('networkidle');
+      }
+    
+      async getTitle() {
+        return this.page.title();
+      }
 }

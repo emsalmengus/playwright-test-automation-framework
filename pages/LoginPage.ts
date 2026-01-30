@@ -1,8 +1,8 @@
 import { Locator, Page, expect } from '@playwright/test';
-import BasePage from '../pages/BasePage.ts';
+import { BasePage } from '../pages/BasePage.ts';
 import Credentials from '../data/Credentials.ts';
 
-export default class LoginPage extends BasePage {
+export class LoginPage extends BasePage {
 
   private usernameField: Locator;
   private passwordField: Locator;

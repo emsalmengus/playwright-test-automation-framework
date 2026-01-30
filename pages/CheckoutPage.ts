@@ -1,7 +1,7 @@
 import { Locator, Page } from '@playwright/test';
-import BasePage from './BasePage.ts';
+import { BasePage } from './BasePage.ts';
 
-export default class CheckoutPage extends BasePage {
+export class CheckoutPage extends BasePage {
 
   private firstName: Locator;
   private lastName: Locator;

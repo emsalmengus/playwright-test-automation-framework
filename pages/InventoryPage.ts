@@ -1,7 +1,7 @@
 import { Locator, Page, expect } from '@playwright/test';
-import BasePage from './BasePage.ts';
+import { BasePage } from './BasePage.ts';
 
-export default class InventoryPage extends BasePage {
+export class InventoryPage extends BasePage {
 
   private productBackpack: Locator;
   private productBikeLight: Locator;

@@ -1,7 +1,7 @@
 import { Locator, Page, expect } from '@playwright/test';
-import BasePage from './BasePage.ts';
+import { BasePage } from './BasePage.ts';
 
-export default class CheckoutOverviewPage extends BasePage {
+export class CheckoutOverviewPage extends BasePage {
 
   public products: Locator;
   private productPrice: Locator;
