@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-import LoginPage from '../pages/LoginPage.ts';
+import { LoginPage } from '../pages/LoginPage.ts';
 import Credentials from '../data/Credentials.ts';
 
 test('should login with standard user', async ({ page }) => {

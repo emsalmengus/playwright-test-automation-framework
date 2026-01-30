@@ -1,8 +1,8 @@
 import { expect, test } from '@playwright/test';
-import LoginPage from '../pages/LoginPage.ts';
-import InventoryPage from '../pages/InventoryPage.ts';
-import CheckoutPage from '../pages/CheckoutPage.ts';
-import CheckoutOverviewPage from '../pages/CheckoutOverviewPage.ts';
+import { LoginPage } from '../pages/LoginPage.ts';
+import { InventoryPage } from '../pages/InventoryPage.ts';
+import { CheckoutPage } from '../pages/CheckoutPage.ts';
+import { CheckoutOverviewPage } from '../pages/CheckoutOverviewPage.ts';
 
 
     let loginPage: LoginPage;
