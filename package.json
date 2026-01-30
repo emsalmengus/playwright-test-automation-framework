@@ -1,5 +1,5 @@
 {
-  "name": "trytypescript",
+  "name": "playwright-test-automation-framework",
   "version": "1.0.0",
   "description": "��#\u0000 \u0000t\u0000r\u0000y\u0000t\u0000y\u0000p\u0000e\u0000s\u0000c\u0000r\u0000i\u0000p\u0000t\u0000\r\u0000 \u0000",
   "main": "index.js",
@@ -18,5 +18,13 @@
     "playwright": "^1.46.0",
     "playwright-core": "^1.46.0",
     "undici-types": "^6.18.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emsalmengus/playwright-test-automation-framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emsalmengus/playwright-test-automation-framework/issues"
+  },
+  "homepage": "https://github.com/emsalmengus/playwright-test-automation-framework#readme"
 }
